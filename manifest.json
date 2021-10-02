@@ -1,11 +1,8 @@
 {
   "manifest_version": 2,
-  "name": "Borderify",
+  "name": "Mental Health Mode for Lichess",
   "version": "1.0",
-  "description": "Adds a red border to all webpages matching mozilla.org.",
-  "icons": {
-    "48": "icons/border-48.png"
-  },
+  "description": "Start focus on playing chess again and let this extension remove everything that could harm the experience.",
   "content_scripts": [
     {
       "matches": ["*://*.lichess.org/*"],

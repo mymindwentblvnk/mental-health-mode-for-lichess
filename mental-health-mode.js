@@ -41,7 +41,7 @@ const cssClassNames = [
     "analyse__underboard"
 ];
 
-function cleanLichess() {
+function applyMentalHealthMode() {
     var style = document.createElement('style')
     document.head.appendChild(style)
     var sheet = style.sheet
@@ -63,4 +63,4 @@ function cleanLichess() {
     document.getElementsByClassName('site-title').item(0).append(' 🧘');
 }
 
-window.addEventListener('DOMContentLoaded', cleanLichess(), true)
+applyMentalHealthMode()
