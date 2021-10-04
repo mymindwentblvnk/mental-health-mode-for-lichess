@@ -7,3 +7,4 @@
 * A logo is needed
 * A Github Actions pipeline to publish the extension
 * Remove player names from HTML title
+* Why not mental healthing chess.com too?
