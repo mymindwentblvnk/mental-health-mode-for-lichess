@@ -10,7 +10,7 @@ jobs:
       - run: git archive -o mental-health-mode-for-lichess.zip HEAD
       - uses: trmcnvn/firefox-addon@v1
         with:
-          uuid: "${{ env.FF_APP_ID }}"
+          uuid: "{5755e530-0297-4837-974e-7b3845fa01b1}"
           xpi: mental-health-mode-for-lichess.zip
           manifest: manifest.json
           api-key: ${{ secrets.FIREFOX_API_KEY }}
