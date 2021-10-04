@@ -1,0 +1,17 @@
+name: Build and Release
+on:
+  push:
+    branches: [main, feat/deploy-via-github-actions]
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: git archive -o mental-health-mode-for-lichess.zip HEAD
+      - uses: trmcnvn/firefox-addon@v1
+        with:
+          uuid: "${{ env.FF_APP_ID }}"
+          xpi: package.zip
+          manifest: manifest.json
+          api-key: ${{ secrets.FIREFOX_API_KEY }}
+          api-secret: ${{ secrets.FIREFOX_API_SECRET }}
