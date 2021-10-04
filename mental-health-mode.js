@@ -47,14 +47,10 @@ function applyMentalHealthMode() {
     var sheet = style.sheet
 
     cssClassNames.forEach(function (cssClassName, index) {
-        try {
-            sheet.addRule("."+cssClassName, "display: none", 0)
-        } catch(error) { console.log(cssClassName, error) }
+        sheet.addRule("."+cssClassName, "display: none", 0)
     });
     cssIds.forEach(function (cssId, index) {
-        try {
-            sheet.addRule("#"+cssId, "display: none", 0)
-        } catch(error) { console.log(cssId, error) }
+        sheet.addRule("#"+cssId, "display: none", 0)
     });
 
     sheet.addRule("#dasher_app .links a:first-child", "display: none", 0)
