@@ -22,4 +22,4 @@ Your profile is not accessible from the user drop down menu anymore.
 ![Lichess user dropdown menu with applied Mental Health Mode](docs/screenshots/screenshot-05.png "Lichess user dropdown menu with applied Mental Health Mode")
 
 If you call your profile directly, you cannot see the history of your stats anymore. 
-![Lichess profile with applied Mental Health Mode](docs/screenshots/screenshot-06.png "Lichess profile with applied Mental Health Mode")
+![Lichess profile with applied Mental Health Mode](docs/screenshots/screenshot-07.png "Lichess profile with applied Mental Health Mode")
