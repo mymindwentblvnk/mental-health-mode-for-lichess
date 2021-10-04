@@ -11,7 +11,7 @@ jobs:
       - uses: trmcnvn/firefox-addon@v1
         with:
           uuid: "${{ env.FF_APP_ID }}"
-          xpi: package.zip
+          xpi: mental-health-mode-for-lichess.zip
           manifest: manifest.json
           api-key: ${{ secrets.FIREFOX_API_KEY }}
           api-secret: ${{ secrets.FIREFOX_API_SECRET }}
