@@ -6,3 +6,4 @@
 * Add a toggle to the preferences of Lichess
 * A logo is needed
 * A Github Actions pipeline to publish the extension
+* Remove player names from HTML title
