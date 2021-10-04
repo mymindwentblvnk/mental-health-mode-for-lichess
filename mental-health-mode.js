@@ -38,7 +38,7 @@ const cssClassNames = [
     "analyse__side",
     "mchat",
     "chat__members",
-    "analyse__underboard"
+    "analyse__underboard",
 ];
 
 function applyMentalHealthMode() {
@@ -55,8 +55,11 @@ function applyMentalHealthMode() {
 
     sheet.addRule("#dasher_app .links a:first-child", "display: none", 0)
     sheet.addRule("#dasher_app .links a:nth-child(2)", "display: none", 0)
+    sheet.addRule(".analyse__acpl .user-link bad", "display: none", 0)
+    sheet.addRule(".analyse__acpl .user-link good", "display: none", 0)
 
     document.getElementsByClassName('site-title').item(0).append(' 🧘');
+    document.title = "lichess.org 🧘";
 }
 
 applyMentalHealthMode()

@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Mental Health Mode for Lichess",
-  "version": "1.0",
+  "version": "1.1",
   "description": "Start focus on playing chess again and let this extension remove everything that could harm the experience.",
   "content_scripts": [
     {
