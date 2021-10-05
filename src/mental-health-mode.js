@@ -6,7 +6,7 @@ const cssIds = [
     "topnav",
     "friend_box",
     // Profile
-    "us_profile",
+    "us_profile"
 ];
 const cssClassNames = [
     // Home
@@ -38,7 +38,7 @@ const cssClassNames = [
     "analyse__side",
     "mchat",
     "chat__members",
-    "analyse__underboard",
+    "analyse__underboard"
 ];
 
 function applyMentalHealthMode() {
