@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - run: git archive -o mental-health-mode-for-lichess.zip HEAD
+      - run: git archive -o mental-health-mode-for-lichess.zip HEAD:src
       - uses: trmcnvn/firefox-addon@v1
         with:
           uuid: "{5755e530-0297-4837-974e-7b3845fa01b1}"
