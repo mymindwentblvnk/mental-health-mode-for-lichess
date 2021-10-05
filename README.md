@@ -1,4 +1,4 @@
-# mental-health-mode-for-lichess
+#  Mental Health Mode for Lichess
 A browser plugin for Firefox to make Lichess less stressing in regards of mental health.
 
 ## Installation
