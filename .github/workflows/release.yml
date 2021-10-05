@@ -12,6 +12,6 @@ jobs:
         with:
           uuid: "{5755e530-0297-4837-974e-7b3845fa01b1}"
           xpi: mental-health-mode-for-lichess.zip
-          manifest: manifest.json
+          manifest: src/manifest.json
           api-key: ${{ secrets.FIREFOX_API_KEY }}
           api-secret: ${{ secrets.FIREFOX_API_SECRET }}
