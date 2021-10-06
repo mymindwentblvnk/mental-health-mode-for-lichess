@@ -1,0 +1,17 @@
+name: Release Chrome Extension
+on:
+  push:
+    branches: [main]
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: git archive -o mental-health-mode-for-lichess.zip HEAD:src
+      - uses: trmcnvn/chrome-addon@v2
+        with:
+          extension: ""
+          zip: mental-health-mode-for-lichess.zip
+          client-id: ${{ secrets.CHROME_CLIENT_ID }}
+          client-secret: ${{ secrets.CHROME_CLIENT_SECRET }}
+          refresh-token: ${{ secrets.CHROME_REFRESH_TOKEN }}

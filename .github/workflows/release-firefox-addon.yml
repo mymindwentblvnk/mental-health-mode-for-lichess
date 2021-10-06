@@ -1,7 +1,7 @@
-name: Build and Release
+name: Release Firefox Add-On
 on:
   push:
-    branches: [main, feat/deploy-via-github-actions]
+    branches: [main]
 jobs:
   release:
     runs-on: ubuntu-latest
@@ -14,4 +14,4 @@ jobs:
           xpi: mental-health-mode-for-lichess.zip
           manifest: src/manifest.json
           api-key: ${{ secrets.FIREFOX_API_KEY }}
-          api-secret: ${{ secrets.FIREFOX_API_SECRET }}
+         api-secret: ${{ secrets.FIREFOX_API_SECRET }}
