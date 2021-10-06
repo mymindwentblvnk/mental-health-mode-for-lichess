@@ -1,4 +1,8 @@
 #  Mental Health Mode for Lichess
+<p align="center">
+  <img src="docs/logo/logo-480x480.png" alt="Logo"/>
+</p>
+
 A browser plugin for Firefox to make Lichess less stressing in regards of mental health.
 
 ## Installation
