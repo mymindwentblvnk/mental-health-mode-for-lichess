@@ -3,10 +3,12 @@
   <img src="docs/logo/logo-480x480.png" alt="Logo"/>
 </p>
 
-A browser plugin for Firefox to make Lichess less stressing in regards of mental health.
+A browser plugin to make Lichess less stressing in regards of mental health.
 
 ## Installation
-Please install the extension for Firefox here https://addons.mozilla.org/en-US/firefox/addon/mental-health-mode-for-lichess/
+Please install the extension here 
+* for Firefox: https://addons.mozilla.org/en-US/firefox/addon/mental-health-mode-for-lichess/
+* for Chrome: https://chrome.google.com/webstore/detail/mental-health-mode-for-li/jpfepkpncclpcbcgomeenoamcaaphpcl
 
 ## How Lichess Works With the Extension
 On the home screen you can only start games but nothing else is displayed. No menu, no puzzles, no live games, et cetera. It is just about your next game. There is also a fancy 🧘 in the logo.
