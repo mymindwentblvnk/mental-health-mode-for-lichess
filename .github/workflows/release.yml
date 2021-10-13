@@ -1,7 +1,8 @@
 name: Build and Release
 on:
   push:
-    branches: [main, feat/deploy-via-github-actions]
+    branches:
+      - main
 jobs:
   release:
     runs-on: ubuntu-latest
