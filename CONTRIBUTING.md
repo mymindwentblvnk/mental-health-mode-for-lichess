@@ -4,7 +4,8 @@
 * I am not sure if working with `display: none` (CSS) is best practice. May be switching to `.remove()` (Javascript).
 * A version for Google Chrome is needed.
 * Add a toggle to the preferences of Lichess
-* A logo is needed
+* ~~A logo is needed~~
 * ~~A Github Actions pipeline to publish the extension~~
 * ~~Remove player names from HTML title~~
 * Why not mental healthing chess.com too?
+* Reactivate Puzzles
