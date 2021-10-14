@@ -1,7 +1,8 @@
 name: Release Firefox Add-On
 on:
   push:
-    branches: [main]
+    branches:
+      - main
 jobs:
   release:
     runs-on: ubuntu-latest
