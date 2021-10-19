@@ -61,5 +61,8 @@ function applyMentalHealthMode() {
     document.getElementsByClassName('site-title').item(0).append(' 🧘');
     document.title = "lichess.org 🧘";
 }
-// Only run if cookie is set
-applyMentalHealthMode()
+
+// Only apply when Mental Health Mode is activated
+if (localStorage.getItem("mhm.activated") == "yes") {
+    applyMentalHealthMode();
+}
