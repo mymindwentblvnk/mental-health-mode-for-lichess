@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Mental Health Mode for Lichess",
-  "version": "1.4",
+  "version": "1.5",
   "description": "Start focus on playing chess again and let this extension remove everything that could harm the experience.",
   "content_scripts": [
     {
@@ -16,9 +16,5 @@
   "icons": {
     "48": "icons/logo-48x48.png",
     "96": "icons/logo-96x96.png"
-  },
-  "permissions": [
-    "cookies",
-    "<all_urls>"
-  ]
+  }
 }
