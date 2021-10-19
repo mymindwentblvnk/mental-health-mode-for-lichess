@@ -62,4 +62,7 @@ function applyMentalHealthMode() {
     document.title = "lichess.org 🧘";
 }
 
-applyMentalHealthMode()
+// Only apply when Mental Health Mode is activated
+if (localStorage.getItem("mhm.activated") != "no") {
+    applyMentalHealthMode();
+}

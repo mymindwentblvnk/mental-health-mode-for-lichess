@@ -10,6 +10,10 @@ Please install the extension here
 * for Firefox: https://addons.mozilla.org/en-US/firefox/addon/mental-health-mode-for-lichess/
 * for Chrome: https://chrome.google.com/webstore/detail/mental-health-mode-for-li/jpfepkpncclpcbcgomeenoamcaaphpcl
 
+## How to Activate Mental Health Mode
+When installing the plugin, Mental Health Mode is activated by default. You can activate/deactivate it in the preferences, where a new toggle is injected.
+![Mental Health Mode toggle](docs/screenshots/screenshot-08.png "Mental Health Mode toggle")
+
 ## How Lichess Works With the Extension
 On the home screen you can only start games but nothing else is displayed. No menu, no puzzles, no live games, et cetera. It is just about your next game. There is also a fancy 🧘 in the logo.
 ![Lichess home page with applied Mental Health Mode](docs/screenshots/screenshot-01.png "Lichess home page with applied Mental Health Mode")
