@@ -3,14 +3,22 @@
   "name": "Mental Health Mode for Lichess",
   "version": "1.4",
   "description": "Start focus on playing chess again and let this extension remove everything that could harm the experience.",
-  "icons": {
-    "48": "logo-48x48.png",
-    "96": "logo-96x96.png"
-  },
   "content_scripts": [
     {
       "matches": ["*://*.lichess.org/*"],
       "js": ["mental-health-mode.js"]
+    },
+    {
+      "matches": ["*://*.lichess.org/account/preferences/game-display"],
+      "js": ["preferences.js"]
     }
+  ],
+  "icons": {
+    "48": "icons/logo-48x48.png",
+    "96": "icons/logo-96x96.png"
+  },
+  "permissions": [
+    "cookies",
+    "<all_urls>"
   ]
 }
