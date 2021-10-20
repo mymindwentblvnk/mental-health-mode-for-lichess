@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/logo/logo-480x480.png" alt="Logo"/>
+  <img src="docs/logo/logo-320x320.png" alt="Logo"/>
 </p>
 
 ![Github Release](https://github.com/mymindwentblvnk/mental-health-mode-for-lichess/actions/workflows/release-to-github.yml/badge.svg)
