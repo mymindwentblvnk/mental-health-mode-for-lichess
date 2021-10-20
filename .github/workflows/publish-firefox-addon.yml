@@ -1,8 +1,8 @@
 name: Publish Firefox Add-On
 on:
-  push:
-    branches:
-      - main
+  create:
+    tags:
+      - v*
 jobs:
   release:
     runs-on: ubuntu-latest
