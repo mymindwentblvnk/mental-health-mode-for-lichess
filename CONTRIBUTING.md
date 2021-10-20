@@ -12,3 +12,4 @@
 * A link to the Lichess preferences for fast change of the settings
 * A breathe animation like on the Apple Watch
 * ~~Create Github releases~~
+* Automate Google Chrome release
