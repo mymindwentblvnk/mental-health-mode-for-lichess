@@ -13,3 +13,4 @@
 * A breathe animation like on the Apple Watch
 * ~~Create Github releases~~
 * Automate Google Chrome release
+* Read "Yes" and "No" in the preferences from other buttons, to automatically have the correct language at hand
