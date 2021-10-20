@@ -1,0 +1,18 @@
+name: Publish Firefox Add-On
+on:
+  push:
+    branches:
+      - main
+      - feat/release-to-github
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: git archive -o mental-health-mode-for-lichess.zip HEAD:src
+      - uses: ncipollo/release-action 
+      - with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          prerelease: true
+          artifacts: mental-health-mode-for-lichess.zip
+
