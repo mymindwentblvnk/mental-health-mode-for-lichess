@@ -10,7 +10,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - run: git archive -o mental-health-mode-for-lichess.zip HEAD:src
-      - uses: ncipollo/release-action 
+      - uses: ncipollo/release-action@v1
       - with:
           token: ${{ secrets.GITHUB_TOKEN }}
           prerelease: true
