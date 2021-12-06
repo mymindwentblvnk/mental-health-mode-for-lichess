@@ -47,16 +47,16 @@ function applyMentalHealthMode() {
     var sheet = style.sheet
 
     cssClassNames.forEach(function (cssClassName, index) {
-        sheet.addRule("."+cssClassName, "display: none", 0)
+        sheet.insertRule("."+cssClassName + " { display: none }", 0)
     });
     cssIds.forEach(function (cssId, index) {
-        sheet.addRule("#"+cssId, "display: none", 0)
+        sheet.insertRule("#"+cssId + " { display: none }", 0)
     });
 
-    sheet.addRule("#dasher_app .links a:first-child", "display: none", 0)
-    sheet.addRule("#dasher_app .links a:nth-child(2)", "display: none", 0)
-    sheet.addRule(".analyse__acpl .user-link bad", "display: none", 0)
-    sheet.addRule(".analyse__acpl .user-link good", "display: none", 0)
+    sheet.insertRule("#dasher_app .links a:first-child { display: none }", 0)
+    sheet.insertRule("#dasher_app .links a:nth-child(2) { display: none }", 0)
+    sheet.insertRule(".analyse__acpl .user-link bad { display: none }", 0)
+    sheet.insertRule(".analyse__acpl .user-link good { display: none }", 0)
 
     document.getElementsByClassName('site-title').item(0).append(' 🧘');
     document.title = "lichess.org 🧘";
