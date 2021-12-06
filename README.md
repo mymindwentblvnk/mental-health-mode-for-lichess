@@ -7,7 +7,7 @@
 [![deprecated](http://badges.github.io/stability-badges/dist/deprecated.svg)](http://github.com/badges/stability-badges)
 
 #  Mental Health Mode for Lichess
-A browser plugin to make Lichess less stressing in regards of mental health. **And I am happy to say, that this extension is deprecated now and will not be continued. Why am I happy about this? [Read more](docs/deprecation/DEPRECATION.md).**
+A browser plugin to make Lichess less stressing in regards of mental health. **And I am happy to say, that this extension is deprecated since the core functionality is now part of Lichess. Why am I happy about this? [Read more](docs/deprecation/DEPRECATION.md).**
 
 ## Installation
 Please install the extension here 
